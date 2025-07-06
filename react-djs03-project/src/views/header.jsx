@@ -1,12 +1,11 @@
-import { createRoot } from "react-dom/client"
+import React from 'react';
 
-const root = createRoot(document.getElementById("root"))
+const Header = () => {
+  return (
+    <header className="app-header">
+      <h1>🎙️ Podcast App</h1>
+    </header>
+  );
+};
 
-
-    root.render (
-        <header class="app-header">
-        <h1>🎙️ Podcast App</h1>
-        </header>
-    );
-
-export default root
+export default Header;
